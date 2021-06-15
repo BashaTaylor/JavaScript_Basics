@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 970px;
+    height: 770px;
+    background-color: rgba(5, 5, 73, 0.745);
+    margin: 20px;
+    padding: 10px;
+}
+
+.header {
+    height: 30px;
+    width: 915px;
+    margin: 10px;
+    background-color: red;
+    padding: 20px;
+    align-items:center;
+    border-radius: 12px;
+    color: white;
+}
+
+.home {
+    display: flex;
+    width: 970px;
+    height: 620px;
+
+}
+
+.navigation {
+    width: 135px;
+    height: 200px;
+    background-color: teal;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    border-radius: 12px;
+    color: skyblue;
+    font-size: smaller;
+    padding: 20px;
+}
+
+.main {
+    width: 720px;
+    height: 550px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.items {
+    color: royalblue;
+}
+
+.bullets {
+    margin-left: 20px;
+}
+
+.footer {
+    width: 945px;
+    height: 35px;
+    background-color: gray;
+    border-radius: 12px;
+    color: white;
+    font-size: small;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+a {
+    color: skyblue;
+}
+
+/* //nesting the bullets inside bullets in the navigation bar// */
+.nest {
+    margin-left: 15px;
+}
+
