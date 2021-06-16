@@ -30,7 +30,7 @@ h1 {
 
 .navigation {
     width: 135px;
-    height: 200px;
+    height: 210px;
     background-color: teal;
     display: inline-block;
     vertical-align: top;
@@ -39,6 +39,10 @@ h1 {
     color: skyblue;
     font-size: smaller;
     padding: 20px;
+}
+
+.teal {
+    margin: 10px;
 }
 
 .main {
