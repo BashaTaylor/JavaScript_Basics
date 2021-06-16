@@ -5,9 +5,9 @@
 
 .container{
     width: 970px;
-    height: 770px;
+    height: 775px;
     background-color: rgba(5, 5, 73, 0.745);
-    margin: 30px;
+    margin: 20px;
     padding: 10px;
 }
 
@@ -26,6 +26,7 @@ h1 {
     display: flex;
     width: 970px;
     height: 620px;
+    
 }
 
 .navigation {
@@ -66,14 +67,15 @@ h1 {
 }
 
 .footer {
-    width: 945px;
+    width: 935px;
     height: 35px;
     background-color: gray;
     border-radius: 12px;
     color: white;
-    font-size: small;
+    font-size: smaller;
     padding-left: 20px;
     padding-top: 20px;
+    margin-left: 10px;
 }
 
 a {
