@@ -11,12 +11,12 @@
     padding: 10px;
 }
 
-.header {
-    height: 30px;
+h1 {
+    height: 40px;
     width: 915px;
     margin: 10px;
     background-color: red;
-    padding: 20px;
+    padding: 10px;
     align-items:center;
     border-radius: 12px;
     color: white;
@@ -26,7 +26,6 @@
     display: flex;
     width: 970px;
     height: 620px;
-
 }
 
 .navigation {
@@ -82,3 +81,6 @@ a {
     margin-left: 15px;
 }
 
+.my_word {
+    color: purple;
+}
